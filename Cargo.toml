@@ -1,0 +1,24 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sho Mitarai <shomitarai1@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+keywords = ["cli", "search", "demo"]
+categories = ["command-lline-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.13"
+anyhow = "1.0"
+indicatif = "0.16.2"
+log = "0.4"
+env_logger = "0.8.4"
+
+[dev-dependencies]
+assert_cmd = "0.10"
+predicates = "1"
+tempfile = "3"
